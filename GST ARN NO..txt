@@ -1,0 +1,16 @@
+AA360923031250L
+
+
+
+
+
+
+
+
+
+
+    eksctl create cluster \
+        --region us-east-1 \
+       --node-type t3.medium \
+       --nodes 3 \
+       --name new-cluster
